@@ -1,0 +1,23 @@
+{% extends 'flatpages/default.html' %}
+<title>{{ flatpage.title }}</title>
+
+{{ flatpage.content }}
+{% include 'flatpages/inc.html' %}
+<h2> SKILL FACTORY </h2>
+
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+{{ flatpage.content }}
+{% endblock content %}
+
+
+
+
+
+
+
+
